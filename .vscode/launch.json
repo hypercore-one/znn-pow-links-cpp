@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/generator.exe",
+            "args": ["2000", "c89dd926d42c41f182089afff59122d0918225ab2af9f84c34e01c9c6a6fba17", "a7ba9d0b8cbeef3fb7a37c7b17fdbf59c64c14f4545cadd9dc9d317b8ff26f3d", "light"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/mingw64/bin/gdb.exe",
+            "preLaunchTask": "C/C++: g++.exe build active file"
+        }
+    ]
+}

@@ -1,3 +1,6 @@
 [submodule "SHA3IUF"]
 	path = SHA3IUF
 	url = https://github.com/brainhub/SHA3IUF.git
+[submodule "RandomX"]
+	path = RandomX
+	url = https://github.com/tevador/RandomX.git
